@@ -22,7 +22,7 @@ async function handleRequest(request) {
       screenshots: [
         {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot1.png",
-          "sizes": "1080x1000",
+          "sizes": "1080x494",
           "type": "image/png",
           "form_factor": "wide"
         },
