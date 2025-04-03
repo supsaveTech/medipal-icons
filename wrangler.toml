@@ -1,0 +1,3 @@
+name = "medipal-pharmacy-worker"
+main = "index.js"  # Make sure this file exists
+compatibility_date = "2025-04-03"
