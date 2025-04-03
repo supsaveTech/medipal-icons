@@ -17,20 +17,20 @@ async function handleRequest(request) {
         { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/4.png", type: "image/png", sizes: "192x192", purpose: "maskable" },
         { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/5.png", type: "image/png", sizes: "256x256", purpose: "maskable" },
         { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/6.png", type: "image/png", sizes: "384x384", purpose: "maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/7.png", type: "image/png", sizes: "512x512", purpose: "maskable" }
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/7.png", type: "image/png", sizes: "512x512" }
       ],
       screenshots: [
         {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot1.png",
           "sizes": "1080x1920",
           "type": "image/png",
-          "form_factor": "narrow"
+          "form_factor": "wide"
         },
         {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot2.png",
-          "sizes": "1080x1920",
+          "sizes": "540x720",
           "type": "image/png",
-          "form_factor": "any"
+          "form_factor": "narrow"
         }
       ],
       start_url: "https://medipalpharmacy.great-site.net/home.php",
@@ -39,7 +39,7 @@ async function handleRequest(request) {
       orientation: "portrait",
       background_color: "#ffffff",
       theme_color: "#008080",
-      description: "Health Care at your Convenience",
+      description: "Health Care at Your Convenience",
       dir: "ltr",
       lang: "en-GB"
     };
