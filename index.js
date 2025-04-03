@@ -27,6 +27,18 @@ async function handleRequest(request) {
           "form_factor": "wide"
         },
         {
+          "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot3.png",
+          "sizes": "1080x494",
+          "type": "image/png",
+          "form_factor": "wide"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot4.png",
+          "sizes": "1080x494",
+          "type": "image/png",
+          "form_factor": "wide"
+        },
+        {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot2.png",
           "sizes": "540x720",
           "type": "image/png",
