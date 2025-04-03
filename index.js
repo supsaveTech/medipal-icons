@@ -23,7 +23,8 @@ async function handleRequest(request) {
         {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot1.png",
           "sizes": "1080x1920",
-          "type": "image/png"
+          "type": "image/png",
+          "form_factor": "narrow"
         },
         {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot2.png",
