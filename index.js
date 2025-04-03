@@ -11,20 +11,25 @@ async function handleRequest(request) {
       name: "Medipal Pharmacy",
       short_name: "Medipal",
       icons: [
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/1.png", type: "image/png", sizes: "50x50", purpose: "any maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/2.png", type: "image/png", sizes: "96x96", purpose: "any maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/3.png", type: "image/png", sizes: "144x144", purpose: "any maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/4.png", type: "image/png", sizes: "192x192", purpose: "any maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/5.png", type: "image/png", sizes: "256x256", purpose: "any maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/6.png", type: "image/png", sizes: "384x384", purpose: "any maskable" },
-        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/7.png", type: "image/png", sizes: "512x512", purpose: "any maskable" }
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/1.png", type: "image/png", sizes: "50x50", purpose: "maskable" },
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/2.png", type: "image/png", sizes: "96x96", purpose: "maskable" },
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/3.png", type: "image/png", sizes: "144x144", purpose: "maskable" },
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/4.png", type: "image/png", sizes: "192x192", purpose: "maskable" },
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/5.png", type: "image/png", sizes: "256x256", purpose: "maskable" },
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/6.png", type: "image/png", sizes: "384x384", purpose: "maskable" },
+        { src: "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/icons/7.png", type: "image/png", sizes: "512x512", purpose: "maskable" }
       ],
       screenshots: [
         {
           "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot1.png",
           "sizes": "1080x1920",
+          "type": "image/png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot2.png",
+          "sizes": "1080x1920",
           "type": "image/png",
-          "form_factor": "wide"
+          "form_factor": "any"
         }
       ],
       start_url: "https://medipalpharmacy.great-site.net/home.php",
