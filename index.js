@@ -43,6 +43,18 @@ async function handleRequest(request) {
           "sizes": "540x720",
           "type": "image/png",
           "form_factor": "narrow"
+        },
+         {
+          "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot5.png",
+          "sizes": "540x720",
+          "type": "image/png",
+          "form_factor": "narrow"
+        },
+         {
+          "src": "https://raw.githubusercontent.com/supsaveTech/medipal-icons/main/src/images/screenshots/screenshot6.png",
+          "sizes": "540x720",
+          "type": "image/png",
+          "form_factor": "narrow"
         }
       ],
       start_url: "https://medipalpharmacy.great-site.net/home.php",
